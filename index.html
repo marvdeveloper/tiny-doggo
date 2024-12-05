@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tiny Doggo app</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div>
+					<img
+						src="./assets/dog-api-logo.svg"
+						alt="tiny doggo logo"
+						id="logo"
+					/>
+				</div>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#dogs">Browse Dogs</a></li>
+					<li><a href="#submit">Submit Dogs</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="home" id="home">
+			<div class="container">
+				<div class="left-section">
+					<div class="content">
+						<p class="text text-extra">woof woof</p>
+						<h1 class="heading">Tiny - Doggo</h1>
+						<p class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Non, nobis explicabo reprehenderit quidem
+							possimus modi, quibusdam sint accusantium esse
+							maiores aperiam officiis quos et culpa id repellat
+							perspiciatis pariatur dolor veniam! Labore, maxime!
+							Dicta doloribus, repellendus sit beatae incidunt
+							error iure enim asperiores voluptatum reiciendis
+							velit provident officiis cupiditate nesciunt id
+						</p>
+
+						<button id="explore">Get random dog</button>
+					</div>
+				</div>
+				<div class="right-section"></div>
+			</div>
+		</section>
+		<section class="dogs-container" id="dogs">
+			<h1>Browse Dogs</h1>
+			<select id="breeds"></select>
+			<div class="dogs-display"></div>
+		</section>
+		<section class="submit-container" id="submit">
+			<h1>Submit Dogs</h1>
+		</section>
+
+		<script src="main.js"></script>
+	</body>
+</html>
